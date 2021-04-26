@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<title>Complete Website design using HTML and CSS</title>
+	<meta name="author" content="Your Name">
+	<meta name="description" content="Example description">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/x-icon" href=""/>
+</head>
+
+<body>
+	<header></header>
+        <section id="header">
+            <div class="container"> 
+                <img src="images/logo.png" class="logo">
+                <div class="Header_text">
+                    <h1>Our passion for delicious food</h1>
+                    <span class="square"></span>
+                    <p>Come to experience the exceptional gastronomic voyage in the ultimate venue.</p>
+                    <button class="common-btn">READ MORE</button>
+                    <div class="line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span><br>
+                    </div>
+                </div>
+            </div>    
+    </section>
+    
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">RESERVATIONS</a></li>
+            <li><a href="#">MENU</a></li>
+            <li><a href="#">BRANCHES</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+    <img src="images/menu.png" id="menuBtn">
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+            }
+            else{
+                sideNav.style.right = "-250px";
+            }
+        }
+    </script>
+	<main></main>
+	<footer></footer>
+	<script type="text/javascript" src=""></script>
+</body>
+    
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
